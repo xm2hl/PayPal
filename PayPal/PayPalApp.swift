@@ -11,7 +11,7 @@ import SwiftUI
 struct PayPalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
