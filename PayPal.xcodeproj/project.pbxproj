@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187658A32A155DFF00879136 /* OnboardingPeg1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187658A22A155DFF00879136 /* OnboardingPeg1.swift */; };
+		187658A52A1561D900879136 /* OndoardingPeg2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187658A42A1561D900879136 /* OndoardingPeg2.swift */; };
+		187658A72A1563AE00879136 /* OndoardingPeg3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187658A62A1563AE00879136 /* OndoardingPeg3.swift */; };
+		187658A92A1564A800879136 /* OndoardingPeg4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187658A82A1564A800879136 /* OndoardingPeg4.swift */; };
+		187658AC2A1569DD00879136 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187658AB2A1569DD00879136 /* SignUpView.swift */; };
 		189A978A2A14E7A20093D042 /* PayPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A97892A14E7A20093D042 /* PayPalApp.swift */; };
-		189A978C2A14E7A20093D042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A978B2A14E7A20093D042 /* ContentView.swift */; };
+		189A978C2A14E7A20093D042 /* HomPayPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A978B2A14E7A20093D042 /* HomPayPal.swift */; };
 		189A978E2A14E7A40093D042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A978D2A14E7A40093D042 /* Assets.xcassets */; };
 		189A97912A14E7A40093D042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A97902A14E7A40093D042 /* Preview Assets.xcassets */; };
+		189A97B22A1539360093D042 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A97B12A1539360093D042 /* SplashScreen.swift */; };
+		189A97B42A1544E70093D042 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A97B32A1544E70093D042 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187658A22A155DFF00879136 /* OnboardingPeg1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPeg1.swift; sourceTree = "<group>"; };
+		187658A42A1561D900879136 /* OndoardingPeg2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OndoardingPeg2.swift; sourceTree = "<group>"; };
+		187658A62A1563AE00879136 /* OndoardingPeg3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OndoardingPeg3.swift; sourceTree = "<group>"; };
+		187658A82A1564A800879136 /* OndoardingPeg4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OndoardingPeg4.swift; sourceTree = "<group>"; };
+		187658AB2A1569DD00879136 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		189A97862A14E7A20093D042 /* PayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A97892A14E7A20093D042 /* PayPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalApp.swift; sourceTree = "<group>"; };
-		189A978B2A14E7A20093D042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		189A978B2A14E7A20093D042 /* HomPayPal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomPayPal.swift; sourceTree = "<group>"; };
 		189A978D2A14E7A40093D042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189A97902A14E7A40093D042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		189A97B12A1539360093D042 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		189A97B32A1544E70093D042 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187658A02A155D7F00879136 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				189A97B32A1544E70093D042 /* Onboarding.swift */,
+				187658A22A155DFF00879136 /* OnboardingPeg1.swift */,
+				187658A42A1561D900879136 /* OndoardingPeg2.swift */,
+				187658A62A1563AE00879136 /* OndoardingPeg3.swift */,
+				187658A82A1564A800879136 /* OndoardingPeg4.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		187658AA2A15698300879136 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				187658AB2A1569DD00879136 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		189A977D2A14E7A20093D042 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +85,11 @@
 		189A97882A14E7A20093D042 /* PayPal */ = {
 			isa = PBXGroup;
 			children = (
+				187658AA2A15698300879136 /* SignUp */,
+				187658A02A155D7F00879136 /* Onboarding */,
 				189A97892A14E7A20093D042 /* PayPalApp.swift */,
-				189A978B2A14E7A20093D042 /* ContentView.swift */,
+				189A978B2A14E7A20093D042 /* HomPayPal.swift */,
+				189A97B12A1539360093D042 /* SplashScreen.swift */,
 				189A978D2A14E7A40093D042 /* Assets.xcassets */,
 				189A978F2A14E7A40093D042 /* Preview Content */,
 			);
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189A978C2A14E7A20093D042 /* ContentView.swift in Sources */,
+				189A97B22A1539360093D042 /* SplashScreen.swift in Sources */,
+				187658A32A155DFF00879136 /* OnboardingPeg1.swift in Sources */,
+				189A978C2A14E7A20093D042 /* HomPayPal.swift in Sources */,
+				189A97B42A1544E70093D042 /* Onboarding.swift in Sources */,
+				187658A92A1564A800879136 /* OndoardingPeg4.swift in Sources */,
+				187658A52A1561D900879136 /* OndoardingPeg2.swift in Sources */,
 				189A978A2A14E7A20093D042 /* PayPalApp.swift in Sources */,
+				187658AC2A1569DD00879136 /* SignUpView.swift in Sources */,
+				187658A72A1563AE00879136 /* OndoardingPeg3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
